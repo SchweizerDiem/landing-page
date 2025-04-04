@@ -1,0 +1,158 @@
+/* Making the import for the 'Roboto' font family */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*CSS*/
+body {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-family: "Roboto", "serif";
+	margin: 0;
+	padding: 0;
+}
+
+/*NAVIGATION BAR*/
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #1F2937;
+}
+
+nav > p {
+	font-size: 24px;
+	color: #F9FAF8;
+}
+
+nav ul {
+	display: flex;
+	gap: 32px;
+}
+nav a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+/*MAIN CONTENT*/
+main {
+	display: flex;
+	flex-direction: column;
+}
+
+.container.first {
+	display: flex;
+	flex: 1 0 auto;
+	gap: 10dvh;
+	padding-right: 200px;
+	padding-left: 200px;
+	padding-bottom: 80px;
+	padding-top: 80px;
+	background-color: #1F2937;
+}
+
+.container.first > div {
+	flex-wrap: wrap;
+	text-align: start;
+}
+
+.container.first h1 {
+	font-size: 48px;
+	color: #F9FAF8;
+}
+
+.container.first button {
+	position: absolute;
+	background-color:#3882f6;
+	color: #fff;
+	border:none; 
+	border-radius:10px; 
+	padding:15px;
+	min-height:30px; 
+	min-width: 120px; }
+
+.container.first p {
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+.container.first > img {
+	border-radius: 16px;
+}
+
+.container.first > div, .container.first > img {
+	flex-grow: 1;
+}
+
+
+/*CARDS CONTAINER*/
+.cards-container {
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+	padding-bottom: 90px;
+}
+
+.card {
+	height: 200px;
+	width: 200px;
+	outline: 4px solid blue;
+	border-radius: 16px;
+}
+
+.container.third {
+	display: flex;
+	flex-direction: column;
+	background-color: #E5E7EB;
+	padding: 90px;
+}
+
+/*QUOTE CONTAINER*/
+blockquote {
+	font-size: 36px;
+	padding-left: 30dvh;
+	padding-right: 30dvh;
+}
+
+blockquote p {
+	align-items: flex-end;
+	font-size: 20px;
+}
+
+/*SIGN UP BUTTON*/
+.container.fourth {
+	padding: 20px;
+}
+
+.square {
+	display: flex;
+	justify-content: space-around;
+	text-align: start;
+	background-color:#3882f6;
+	width: 900px;
+	margin: auto;
+	border-radius: 20px;
+	padding: 30px;
+}
+
+button {
+	background-color:#3882f6;
+	color: #fff;
+	border-style: solid;
+	border-radius:10px; 
+	padding: 5px 15px;
+	align-self: center;
+}
+
+.container.fourth h1 {
+	font-size: 24px;
+	color: #F9FAF8;
+	weight: 900;
+}
+
+/*FOOTER*/
+footer {
+	font-size: 18px;
+	color: #E5E7EB;
+	background-color: #1F2937;
+}
